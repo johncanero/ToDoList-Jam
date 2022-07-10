@@ -23,10 +23,25 @@ app.get ("/", function(req, res){
 
 
 // POST function for home route
+app.post("/", function(req, res){
+    // console.log(req.body);
+    const item = req.body.newItem;
 
+    // pushing work items list (work route)
+    if(req.body.list === "Work list") {
+        workItems.push(item);
+        res.redirect("/work");
+        // pushing home route
+    }else{
+        items.push(item);
+        res.redirect("/");
+    }
+});
 
 // GET function for work route
-
+app.get("/work", function(req, res){
+    res.render("list", {listTitle: "Work list", newListItems: workItems});
+});
 
 // POST function for work route
 
