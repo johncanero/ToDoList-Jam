@@ -44,10 +44,16 @@ app.get("/work", function(req, res){
 });
 
 // POST function for work route
-
+app.post("/work", function(req,res) {
+    const item = req.body.newItem;
+    workItems.push(item);
+    res.redirect("/work");
+});
 
 // GET function for about route
-
+app.get("/about", function(req, res) {
+    res.render("about");
+})
 
 // essentials: running server
 app.listen(3000, function(){
