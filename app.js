@@ -7,7 +7,7 @@ const date = require(__dirname+"/date.js");
 
 
 const app = express();
-const items = ["Build Something Valuable", "Show Works on Internet"];
+const items = ["Build Something Valuable"];
 const workItems = [];
 
 // SET - UP view: EJS
@@ -15,6 +15,7 @@ app.set("view engine", "ejs");
 app.use(bodyParser.urlencoded({extended: true}));
 // public > css (styles)
 app.use(express.static("public")); 
+
 
 // GET function for home route
 app.get ("/", function(req, res){
