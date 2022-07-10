@@ -13,6 +13,8 @@ exports.getDate = function () {
   return today.toLocaleDateString("en-US", options);
 };
 
+
+// Export getDayfunction
 exports.getDay = function () {
   const today = new Date();
 
