@@ -2,4 +2,4 @@ This is my ToDoList Project guided by Angela Yu's Web Development Course and pow
 
 Project created by John Cañero.
 
-<img src="mobileToDoListPost.png" alt="mobileToDoListPost.png">
+<img src="images/mobileToDoListPost.png" alt="mobileToDoListPost.png">
