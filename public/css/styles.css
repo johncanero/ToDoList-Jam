@@ -13,7 +13,7 @@ html {
 }
 
 body {
-  background: linear-gradient(rgba(13, 13, 13, 0.5), rgba(19, 19, 19, 0.5)), url("/images/todolistBackground.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/todolistBackground2.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -53,9 +53,14 @@ p {
 }
 
 
+.boxMargin {
+  margin-top: 2em;
+}
+
+
 .box {
-    max-width: 320px;
-    margin: 2em auto;
+    max-width: 310px;
+    margin: 1.5em auto;
     background: white;
     border-radius: 10px;
     box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
