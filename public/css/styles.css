@@ -39,9 +39,8 @@ h1 {
 p {
   margin: 0;
   padding: 20px;
-  font-size: 20px;
+  font-size: 1.2em;
   font-weight: 200;
-  color: #00204a;
 }
 
 /* Flex Container */
@@ -131,11 +130,21 @@ p {
     color: grey;
     opacity: 1;
   }
-  
-  footer {
-    color: white;
-    text-align: center;
-  }
+
+  /* Footer */
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  padding: 0.5em;
+  color: white;
+}
+
   
 
   /* Images */
