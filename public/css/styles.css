@@ -80,18 +80,23 @@ p {
   border-bottom: 0;
 }
 
-
 /* Tablet */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-
   .box {
     max-width: 360px;
   }
-  
+
+  /* Heading Tag */
+  h1 {
+    font-size: 2em;
+    padding: 10px;
+  }
+
+  /* Paragraph Tag */
+  p {
+    font-size: 1.3em;
+  }
 }
-
-
-
 
 /* Checkout Line Word */
 input:checked + p {
@@ -162,9 +167,6 @@ input[type="text"]:focus {
   margin-top: 5em;
   width: 12em;
 }
-
-
-
 
 /* Tablet */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
