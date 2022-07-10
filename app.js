@@ -16,7 +16,10 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public")); 
 
 // GET function for home route
-
+app.get ("/", function(req, res){
+    const day = date.getDate(); //date module from date.js
+    res.render("list", {listTitle:day, newListItems: items});
+});
 
 
 // POST function for home route
