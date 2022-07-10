@@ -7,7 +7,7 @@ const date = require(__dirname+"/date.js");
 
 
 const app = express();
-const items = ["Build Something Valuable"];
+const items = ["Build Something Valuable", "Show Works on the Internet"];
 const workItems = [];
 
 // SET - UP view: EJS
