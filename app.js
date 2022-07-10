@@ -2,8 +2,9 @@
 
 // essentials
 const express = require("express");
-const bodyParser =  require("body-parser");
-const date = require(__dirname + "/date.js")
+const bodyParser = require("body-parser");
+const date = require(__dirname+"/date.js");
+
 
 const app = express();
 const items = ["Study Web Development", "Build Something"];
