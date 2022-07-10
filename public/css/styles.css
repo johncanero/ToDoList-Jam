@@ -14,11 +14,23 @@ html {
     font-family: "helvetica neue";
 }
 
+
 /* Heading Tag */
 h1 {
     color: white;
+    font-size: 1.8em;
     padding: 10px;
 }
+
+p {
+  margin: 0;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 200;
+  color: #00204a;
+}
+
+
 
 .boxMargin {
   padding-top: 7em;
@@ -26,12 +38,12 @@ h1 {
 
 
 .box {
-    max-width: 400px;
+    max-width: 320px;
     margin: 2em auto;
     background: white;
     border-radius: 10px;
     box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
-    padding: 0.3em;
+    padding: 0.2em;
   }
 
   
@@ -62,28 +74,23 @@ h1 {
     margin: 20px;
   }
   
-  p {
-    margin: 0;
-    padding: 20px;
-    font-size: 20px;
-    font-weight: 200;
-    color: #00204a;
-  }
+
   
   form {
     text-align: center;
     margin-left: 20px;
   }
   
+  /* Button + */
   button {
-    min-height: 50px;
-    width: 50px;
+    min-height: 10px;
+    width: 40px;
     border-radius: 50%;
     border-color: transparent;
-    background-color: gray;
+    background-color: rgb(63, 63, 63);
     color: #fff;
     font-size: 30px;
-    padding-bottom: 6px;
+    /* padding-bottom: 1px; */
     border-width: 0;
   }
   
@@ -110,7 +117,6 @@ h1 {
   
   footer {
     color: white;
-    color: rgba(0, 0, 0, 0.5);
     text-align: center;
   }
   
