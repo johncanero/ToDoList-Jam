@@ -82,11 +82,9 @@ p {
 
 /* Tablet */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-
   .boxMargin {
     margin-top: 2.5em;
   }
-
 
   .box {
     max-width: 360px;
@@ -103,6 +101,32 @@ p {
     font-size: 1.3em;
   }
 }
+
+/* Desktop */
+@media only screen and (min-device-width: 1025px) {
+
+  .boxMargin {
+    margin-top: 2em;
+  }
+
+  .box {
+    max-width: 360px;
+  }
+
+   /* Heading Tag */
+   h1 {
+    font-size: 2em;
+    padding: 10px;
+  }
+
+    /* Paragraph Tag */
+    p {
+      font-size: 1.3em;
+    }
+}
+
+
+
 
 /* Checkout Line Word */
 input:checked + p {
@@ -180,5 +204,14 @@ input[type="text"]:focus {
   .toDoListIcon {
     margin-top: 6em;
     width: 15em;
+  }
+}
+
+/* Desktop */
+@media only screen and (min-device-width: 1025px) {
+  /* Images */
+  .toDoListIcon {
+    margin-top: 5em;
+    width: 13em;
   }
 }
