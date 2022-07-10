@@ -1,13 +1,9 @@
 html {
-    background-image:  url("../images/todolistBackground.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color: black;
+    background: linear-gradient(rgba(99, 99, 99, 0.5), #000);
     min-height: 1000px;
-
+    /* Add font family */
     font-family: "helvetica neue";
-    /* footer support */
-    margin-bottom: 100px;
 }
 
 /* Heading Tag */
@@ -16,6 +12,9 @@ h1 {
     padding: 10px;
 }
 
+.boxMargin {
+  padding-top: 5em;
+}
 
 
 .box {
@@ -24,7 +23,9 @@ h1 {
     background: white;
     border-radius: 5px;
     box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+    
   }
+
   
   #heading {
     background-color: white;
