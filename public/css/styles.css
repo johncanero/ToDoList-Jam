@@ -1,9 +1,13 @@
 html {
-    background-color: black;
-    background: -webkit-linear-gradient(65deg, #ffffff 50%, #000 50%);
+    background-image:  url("../images/todolistBackground.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     min-height: 1000px;
-    /* Add font family */
+
     font-family: "helvetica neue";
+    /* footer support */
+    margin-bottom: 100px;
 }
 
 /* Heading Tag */
