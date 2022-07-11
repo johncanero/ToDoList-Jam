@@ -1,0 +1,16 @@
+# index.html
+1. Add Boiler Plate
+2. Add Heading Tag and Paragraph Tag
+
+
+<! views folder -->
+# list.ejs
+*** <%- =  'Scriptlet' tag, for control-flow, no output
+*** -%> = Trim-mode ('newline slurp') tag, trims following newline
+
+# header.ejs
+1. Add Boiler Plate
+2. Link CSS Stylesheet
+
+#footer.ejs
+1. footer copyright = © John Cañero.
